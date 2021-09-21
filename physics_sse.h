@@ -5,8 +5,7 @@ const int PACKING = SDL_SIMDGetAlignment()/sizeof(float);
 
 struct ParticleData
 {
-	// Structure of Arrays model over Array 
-	// of Structures for SSE
+	// Structure of Arrays model for SSE
 	float *x,*y;
 	float *x_old,*y_old;
 	float *force_x, *force_y;
