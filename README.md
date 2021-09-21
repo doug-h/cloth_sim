@@ -2,9 +2,9 @@ Cloth sim using SDL2
 
 ![cloth.png](https://github.com/doug-h/cloth_sim/blob/master/cloth.png)
 
-Builds on Windows with mingw-w64 using:
+Builds on Windows with mingw-w64 using the following arguments:
 ```
-g++ main.cpp -o build/main.exe -std=c++17 -mwindows -lmingw32 -lSDL2main -lSDL2 -O3
+g++ main.cpp  -std=c++17 -mwindows -lmingw32 -lSDL2main -lSDL2 -O3
 ```
 
 
